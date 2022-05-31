@@ -385,8 +385,3 @@ textarea {
 /* =============
     Footer
 ============= */
-section {
-  display: grid;
-  width: 100%;
-  margin: 24px;
-}
