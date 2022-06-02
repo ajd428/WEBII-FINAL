@@ -385,3 +385,15 @@ textarea {
 /* =============
     Footer
 ============= */
+#hero-1 {
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+}
+@media (min-width: 1024px) {
+  #hero-1 #hero-1 {
+    height: 80vh;
+  }
+}
