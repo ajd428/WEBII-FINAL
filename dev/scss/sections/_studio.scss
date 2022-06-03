@@ -1,13 +1,38 @@
 #studio{
-    
     background-color: var(--laurel);
-    background-position: center;
     border-radius: 5px;
+    margin: 24px;
     padding: 16px;
+    background-size: cover;
+    background-position: center center;
 
     h3{
         text-align: center;
     }
+
+    aside{
+        display: flex;
+        
+        ul{
+            li{
+                text-align: left;
+            }
+        }
+        section{
+            p{
+                text-align: right;
+            }
+        }
+    }
+
+    section{
+        h4{
+            text-align: center;
+        }
+        
+    }
+
+
 
 
 }

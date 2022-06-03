@@ -564,21 +564,41 @@ header ul li {
     Footer
 ============= */
 #hero-1 {
-  margin-bottom: 310px;
   width: 100vw;
   height: 50vh;
+  background-image: url(../img/heroes/hero-1.svg);
+  margin: 24px;
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
 }
+@media (min-width: 1024px) {
+  #hero-1 #hero-1 {
+    height: 80vh;
+  }
+}
 
 #studio {
   background-color: var(--laurel);
-  background-position: center;
   border-radius: 5px;
+  margin: 24px;
   padding: 16px;
+  background-size: cover;
+  background-position: center center;
 }
 #studio h3 {
+  text-align: center;
+}
+#studio aside {
+  display: flex;
+}
+#studio aside ul li {
+  text-align: left;
+}
+#studio aside section p {
+  text-align: right;
+}
+#studio section h4 {
   text-align: center;
 }
 
