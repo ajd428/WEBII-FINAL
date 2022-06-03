@@ -2,4 +2,67 @@
     Base
 ============= */
 
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style: none;
+    }
+}
 
+html{
+    scroll-behavior: smooth;
+}
+
+.show-menu{
+    display: block !important;
+}
+
+.global-grid-mobile{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". mobile-grid .";
+
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+    }
+}
+
+.show-for-md{
+    display: block;
+    @include md{
+        display: block;
+    }
+    @include lg{
+        display: none;
+    }
+}
+
+.show-for-lg{
+    display: none;
+    @include md{
+        display: none;
+    }
+    @include lg{
+        display: block;
+    }
+}
+
+.spacing{
+    margin-top: 32px;
+    @include md{
+        margin-top: 64px;
+    }
+    @include xxl{
+        margin-top: 72px;
+    }
+
+    margin-bottom: 16px;
+    @include md{
+        margin-bottom: 32px;
+    }
+    @include xxl{
+        margin-bottom: 40px;
+    }
+
+}

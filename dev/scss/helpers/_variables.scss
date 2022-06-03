@@ -15,7 +15,26 @@ $screen-lg-min: 1024px;
 // Large desktops
 $screen-xl-min: 1200px;
 
+// XLarge desktops
+$screen-xxl-min: 1440px;
+
 
 // Colors
 $white: #fff;
 $black: #000;
+
+:root{
+    --silver: #EEEEEE;
+    --depaysement: #E8D7C7;
+    --beige: #C9B19E;
+    --mojave: #B89078;
+    --hippo: #ABAA9B;
+    --laurel: #A7B8A1;
+    --parkview: #47493E;
+    --green: #9CA76F;
+    --cliffside: #6F8667;
+    --base: #565A38;
+    --leaf: #4B5937;
+    --black: #000000;
+    --white: #FFFFFF;
+}

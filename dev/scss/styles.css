@@ -10,6 +10,22 @@ html {
 /* =============
     Variables
 ============= */
+:root {
+  --silver: #EEEEEE;
+  --depaysement: #E8D7C7;
+  --beige: #C9B19E;
+  --mojave: #B89078;
+  --hippo: #ABAA9B;
+  --laurel: #A7B8A1;
+  --parkview: #47493E;
+  --green: #9CA76F;
+  --cliffside: #6F8667;
+  --base: #565A38;
+  --leaf: #4B5937;
+  --black: #000000;
+  --white: #FFFFFF;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -352,6 +368,86 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.show-menu {
+  display: block !important;
+}
+
+.global-grid-mobile {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". mobile-grid .";
+}
+@media (min-width: 1440px) {
+  .global-grid-mobile {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+
+.show-for-md {
+  display: block;
+}
+@media (min-width: 768px) {
+  .show-for-md {
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .show-for-md {
+    display: none;
+  }
+}
+
+.show-for-lg {
+  display: none;
+}
+@media (min-width: 768px) {
+  .show-for-lg {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .show-for-lg {
+    display: block;
+  }
+}
+
+.spacing {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  .spacing {
+    margin-top: 64px;
+  }
+}
+@media (min-width: 1440px) {
+  .spacing {
+    margin-top: 72px;
+  }
+}
+@media (min-width: 768px) {
+  .spacing {
+    margin-bottom: 32px;
+  }
+}
+@media (min-width: 1440px) {
+  .spacing {
+    margin-bottom: 40px;
+  }
+}
+
 /* =============
     Typography
 ============= */
