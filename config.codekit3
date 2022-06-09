@@ -124,25 +124,31 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/icons\/plant-left.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/plant-left.svg",
+    "\/deploy\/img\/icons\/plant-left.png" : {
+      "ft" : 32768,
+      "iS" : 23329,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icons\/plant-left.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/icons\/plant-right.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/plant-right.svg",
+    "\/deploy\/img\/icons\/plant-right.png" : {
+      "ft" : 32768,
+      "iS" : 22771,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icons\/plant-right.png",
       "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/icons\/search.svg" : {
       "ft" : 2097152,

@@ -602,6 +602,9 @@ header ul li {
   text-align: center;
 }
 
+#team {
+  display: none;
+}
 #team section {
   background-color: var(--depaysement);
   width: 80%;
@@ -610,6 +613,11 @@ header ul li {
   border-radius: 5px;
   padding: 16px;
   text-align: center;
+}
+@media (min-width: 768px) {
+  #team {
+    display: block;
+  }
 }
 
 #signup {
