@@ -453,18 +453,22 @@ html {
 ============= */
 h1 {
   font-family: "Italiana", serif;
+  font-weight: 200;
 }
 
 h2 {
   font-family: "Italiana", sans-serif;
+  font-weight: 200;
 }
 
 h3 {
   font-family: "Outfit", sans-serif;
+  font-weight: 300;
 }
 
 h4 {
   font-family: "Outfit", sans-serif;
+  font-weight: 200;
 }
 
 /* =============
@@ -521,12 +525,78 @@ a:link, a:visited {
     margin-top: 16px;
   }
 }
+#main-menu aside {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (min-width: 1024px) {
+  #main-menu aside {
+    display: none;
+  }
+}
+#main-menu aside button {
+  background-color: transparent;
+  border: none;
+  color: var(--green);
+}
+#main-menu section {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+@media (min-width: 1024px) {
+  #main-menu section {
+    display: block;
+    margin-top: 0;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  #main-menu section ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  #main-menu section ul li {
+    margin-left: 16px;
+  }
+}
+#main-menu section ul li a:link, #main-menu section ul li a:visited {
+  text-decoration: none;
+  transition: 0.25s;
+  color: var(--black);
+  padding: 16px;
+  display: inline-block;
+  font-size: 1.875rem;
+}
+#main-menu section ul li a:link:hover, #main-menu section ul li a:link:active, #main-menu section ul li a:visited:hover, #main-menu section ul li a:visited:active {
+  color: var(--beige);
+}
+@media (min-width: 1024px) {
+  #main-menu section ul li a:link, #main-menu section ul li a:visited {
+    font-size: 1.375rem;
+    padding: 0;
+    font-weight: 300;
+    color: var(--parkview);
+  }
+}
 
 /* =============
     Header
 ============= */
 header {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "burger-btn . logo search-bar cart-btn";
+}
+@media (min-width: 1024px) {
+  header {
+    grid-template-columns: repeat(12, fr);
+    grid-template-rows: 2;
+    grid-template-areas: ". . . . . logo . . . . search-bar cart-btn";
+  }
 }
 header #logo {
   align-self: center;
@@ -537,6 +607,9 @@ header #burger-container {
   background-color: transparent;
   color: black;
   padding: 16px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 @media (min-width: 1024px) {
   header #burger-container {
@@ -548,6 +621,11 @@ header #burger-container #burger-btn {
   background-color: transparent;
   color: var(--black);
   padding: 16px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+header #burger-container #burger-btn:hover {
+  color: var(--green);
 }
 header #search-bar {
   align-items: right;
@@ -603,6 +681,28 @@ footer {
 footer h1 {
   text-align: center;
 }
+footer aside {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "location time" "phone mail";
+  margin: 24px;
+}
+@media (min-width: 1024px) {
+  footer aside {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "location time phone mail";
+  }
+}
+footer aside section #location {
+  margin-bottom: 16px;
+}
+footer aside section #time {
+  margin-bottom: 16px;
+}
+footer aside section #mail {
+  margin-top: 16px;
+}
+
 #hero-1 {
   width: 100vw;
   height: 50vh;

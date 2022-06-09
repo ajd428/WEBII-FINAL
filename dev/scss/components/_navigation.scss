@@ -30,4 +30,68 @@ a:link, a:visited{
         justify-content: flex-end;
         margin-top: 16px;
     }
+
+    aside{
+        display: flex;
+        justify-content: flex-end;
+
+        @include lg{
+            display: none;
+        }
+
+        button{
+            background-color: transparent;
+            border: none;
+            color: var(--green);
+        }
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+
+        @include lg{
+            display: block;
+            margin-top: 0;
+            height: 100%;
+        }
+
+        ul{
+
+            @include lg{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+
+            li{
+
+                @include lg{
+                    margin-left: 16px;
+                }
+
+                a:link, a:visited{
+                    text-decoration: none;
+                    transition: 0.25s;
+                    color: var(--black);
+                    padding: 16px;
+                    display: inline-block;
+                    font-size: rem-calc(30);
+
+                    &:hover, &:active{
+                        color: var(--beige);
+                    }
+
+                    @include lg{
+                        font-size: rem-calc(22);
+                        padding: 0;
+                        font-weight: 300;
+                        color: var(--parkview);
+                    }
+                }
+            }
+        }
+
+    }
 }

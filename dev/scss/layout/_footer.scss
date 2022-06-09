@@ -7,13 +7,40 @@ footer{
     background-color: var(--mojave);
     color: var(--white);
 
+
+
     h1{
         text-align: center;
     }
 
     aside{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "location time"
+        "phone mail";
+        margin: 24px;
+
+        @include lg{
+            grid-template-columns: repeat(4,1fr);
+            grid-template-areas: 
+            "location time phone mail";
+        }
+
         section{
- 
+            #location{
+                margin-bottom: 16px;
+
+            }
+            #time{
+                margin-bottom: 16px;
+            }
+            #phone{
+
+            }
+            #mail{
+                margin-top: 16px;
+            }
         }
     }
 

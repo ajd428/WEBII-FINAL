@@ -3,7 +3,18 @@
 ============= */
 header{
 
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-areas: 
+    "burger-btn . logo search-bar cart-btn";
+
+    @include lg{
+        grid-template-columns: repeat(12,fr);
+        grid-template-rows: 2;
+        grid-template-areas: 
+        ". . . . . logo . . . . search-bar cart-btn";
+    }
+
 
 
     #logo{
@@ -18,6 +29,10 @@ header{
         color: black;
         padding: 16px;
 
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
         @include lg{
             display: none;
         }
@@ -27,6 +42,12 @@ header{
             background-color: transparent;
             color: var(--black);
             padding: 16px;
+            cursor: pointer;
+            transition: 0.25s;
+
+            &:hover{
+                color: var(--green);
+            }
         }
     }
 

@@ -180,6 +180,88 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/our-story\/left-back.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/our-story\/left-back.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/our-story\/logos-lg.png" : {
+      "ft" : 32768,
+      "iS" : 67975,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our-story\/logos-lg.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/our-story\/logos-sm.png" : {
+      "ft" : 32768,
+      "iS" : 28458,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our-story\/logos-sm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/our-story\/peicha.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/our-story\/peicha.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/our-story\/plant-left-motto.png" : {
+      "ft" : 32768,
+      "iS" : 52427,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our-story\/plant-left-motto.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/our-story\/plant-right-motto.png" : {
+      "ft" : 32768,
+      "iS" : 52574,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our-story\/plant-right-motto.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/our-story\/right-back.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/our-story\/right-back.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/services\/cafe.jpg" : {
       "ft" : 16384,
       "iS" : 90829,
@@ -231,6 +313,14 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
+    "\/deploy\/index2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index2.html",
+      "oF" : 0
+    },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -241,6 +331,30 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/content\/background.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/background.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/businesses.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/businesses.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/founder.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/founder.html",
+      "oF" : 0
     },
     "\/dev\/content\/hero-1.kit" : {
       "cB" : 0,
@@ -258,6 +372,14 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 3
     },
+    "\/dev\/content\/introduction.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/introduction.html",
+      "oF" : 0
+    },
     "\/dev\/content\/join-our-team.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -265,6 +387,14 @@
       "oA" : 1,
       "oAP" : "\/deploy\/index.html",
       "oF" : 3
+    },
+    "\/dev\/content\/our-motto.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/our-motto.html",
+      "oF" : 0
     },
     "\/dev\/content\/question.kit" : {
       "cB" : 0,
@@ -298,6 +428,14 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 3
     },
+    "\/dev\/content\/why-weare-different.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/why-weare-different.html",
+      "oF" : 0
+    },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -322,11 +460,19 @@
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 1
     },
+    "\/dev\/global\/nav.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/nav.html",
+      "oF" : 0
+    },
     "\/dev\/global\/nav.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/nav.html",
       "oF" : 0
     },
@@ -344,6 +490,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
+      "oF" : 2
+    },
+    "\/dev\/index2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index2.html",
       "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
@@ -608,6 +762,96 @@
       "oA" : 1,
       "oAP" : "\/deploy\/css\/styles.css",
       "oF" : 3,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/background.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/background.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/businesses.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/businesses.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/founder.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/founder.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/introduction.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/introduction.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/our-motto.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/our-motto.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/why-weare-different.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/why-weare-different.css",
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
