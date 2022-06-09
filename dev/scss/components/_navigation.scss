@@ -1,3 +1,33 @@
 /* =============
     Navigation
 ============= */
+
+a:link, a:visited{
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+#main-menu{
+    display: none;
+    background-color: var(--mojave);
+    height: 100vh;
+    padding: 16px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    box-sizing: border-box;
+
+    @include lg{
+        background-color: transparent;
+        display: block;
+        height: 100%;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 16px;
+    }
+}
