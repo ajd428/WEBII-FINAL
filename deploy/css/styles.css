@@ -456,7 +456,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Outfit", sans-serif;
+  font-family: "Italiana", sans-serif;
 }
 
 h3 {
@@ -563,11 +563,19 @@ header ul li {
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  gap: 16px;
+  background-color: var(--mojave);
+  color: var(--white);
+}
+footer h1 {
+  text-align: center;
+}
 #hero-1 {
   width: 100vw;
   height: 50vh;
   background-image: url(../img/heroes/hero-1.svg);
-  margin: 24px;
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
@@ -581,7 +589,28 @@ header ul li {
 section div section h1 {
   text-align: center;
 }
-
+section div article {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 24px;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  section div article {
+    grid-area: services;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "shop shop cafe cafe" "plants plants our-story our-story";
+  }
+}
+@media (min-width: 1200px) {
+  section div article {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: ". shop cafe plants our-story .";
+  }
+}
+section div article h2 {
+  text-align: center;
+}
 #studio {
   background-color: var(--laurel);
   border-radius: 5px;
@@ -624,6 +653,31 @@ section div section h1 {
   }
 }
 
+#question {
+  text-align: center;
+}
+
+#hero-2 {
+  width: 50vw;
+  height: auto;
+}
+
 #signup {
   text-align: center;
+  margin-bottom: 32px;
+}
+#signup .button input {
+  border-radius: 10px;
+}
+#signup .button button {
+  color: var(--white);
+  background-color: var(--leaf);
+  border-radius: 10px;
+  border: none;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+#signup .button button:hover {
+  background-color: var(--green);
 }

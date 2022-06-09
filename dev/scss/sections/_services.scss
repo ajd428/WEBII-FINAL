@@ -5,5 +5,47 @@ section{
                text-align: center;
             }
         }
+
+        article{
+            display: grid;
+            gap: 16px;
+            margin-bottom: 24px;
+            justify-content: center;
+
+            @include md{
+                grid-area: services;
+                grid-template-columns: repeat(4,1fr);
+                grid-template-areas:
+                "shop shop cafe cafe"
+                "plants plants our-story our-story";
+            }
+
+            @include xl{
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-areas: 
+                ". shop cafe plants our-story .";
+            }
+
+
+            h2{
+                text-align: center;
+            }
+
+            #shop{
+
+            }
+
+            #cafe{
+
+            }
+
+            #plants{
+
+            }
+
+            #our-story{
+                
+            }
+        }
     }
 }

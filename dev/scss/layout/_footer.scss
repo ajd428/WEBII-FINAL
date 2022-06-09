@@ -1,3 +1,20 @@
 /* =============
     Footer
 ============= */
+footer{
+    display: grid;
+    gap: 16px;
+    background-color: var(--mojave);
+    color: var(--white);
+
+    h1{
+        text-align: center;
+    }
+
+    aside{
+        section{
+ 
+        }
+    }
+
+}
