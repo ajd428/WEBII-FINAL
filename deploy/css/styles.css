@@ -578,6 +578,10 @@ header ul li {
   }
 }
 
+section div section h1 {
+  text-align: center;
+}
+
 #studio {
   background-color: var(--laurel);
   border-radius: 5px;
@@ -616,7 +620,7 @@ header ul li {
 }
 @media (min-width: 768px) {
   #team {
-    display: block;
+    display: flex;
   }
 }
 

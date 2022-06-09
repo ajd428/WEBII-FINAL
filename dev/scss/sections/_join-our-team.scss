@@ -12,7 +12,7 @@
     display: none;
 
     @include md{
-        display: block;
+        display: flex;
     }
 
 }
